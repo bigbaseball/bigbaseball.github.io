@@ -1,0 +1,41 @@
+*{
+    /* border: solid 1px black; */
+    margin: 0 auto;
+}
+body{
+    background-color: white;
+    position: relative;
+}
+.container{
+    width: 1130px;
+    position: relative;
+    margin: 0 auto;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+.cc{
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+}
+#button0{
+    margin: 0 auto;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.mid{
+    margin: 0 auto;
+}
+.float{
+    float: left
+}
+h4{
+    text-align: center
+}
