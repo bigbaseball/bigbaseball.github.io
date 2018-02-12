@@ -8,16 +8,190 @@ body{
 }
 .container{
     width: 1130px;
-    position: relative;
-    margin: 0 auto;
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    padding: 0;
 }
-.cc{
-    width: 500px;
-    height: 400px;
+li{
+    text-decoration:none;
+}
+li:hover{
+    text-decoration:underline;
+}
+#news_firstpage{
+    height: 573px;
+    background-image: url('../img/news_firstpage.png');
+    position: relative
+}
+#news_firstpage_content{
+    position: absolute;
+    width: 440px;
+    height: 300px;
+    left: 355px;
+    top: 200px;
+}
+#happy_new_year{
+    width: 1130px;
+    height: 798px;
+    background-image: url('../img/happy_new_year.png');
     background-color: gray;
+    position: relative;
 }
+#new_year_event_1{
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    cursor: pointer;
+}
+#new_year_event_2{
+    position: absolute;
+    left: 427px;
+    top: 200px;
+    cursor: pointer;
+}
+#new_year_event_3{
+    position: absolute;
+    right: 120px;
+    top: 150px;
+    cursor: pointer;
+}
+#happy_new_year_bottom{
+    position: absolute;
+    top: 475px;
+}
+#day_event1{
+    position: absolute;
+    bottom: 0;
+}
+#day_event2{
+    position: absolute;
+    bottom: 0;
+    left: 381px;
+    cursor: pointer;
+}
+#day_event3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#to_fb{
+    position: absolute;
+    left: 315px;
+    top: 50px;
+}
+#to_site{
+    position: absolute;
+    left: 315px;
+    top:80px;
+}
+#to_recruit{
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+#to_QandA{
+    position: absolute;
+    left: 500px;
+    top:80px;
+}
+#about_trk{
+    width: 1130px;
+    height: 1485px;
+    position: relative;
+    background-image: url('../img/關於大魯閣.jpg');
+}
+#page2_1{
+    height: 400px;
+}
+#page2_1 ul{
+    list-style: none;
+}
+#page2_1 a{
+    color: black;
+}
+#page2_2{
+    height: 400px;
+}
+#page2_2 ul{
+    list-style: none;
+}
+#page2_2 a{
+    color: black;
+}
+#news_content_page1{
+    position: absolute;
+    top: 250px;
+    left: 355px;
+    width: 470px;
+    height: 300px;
+}
+#news_content_page2{
+    position: absolute;
+    top: 250px;
+    left: 355px;
+    width: 470px;
+    height: 300px;
+}
+/* 服務據點 */
+#branch_contact{
+    background-image: url('../img/branch_contact.jpg');
+    position: relative;
+}
+#address1_1{
+    position: absolute;
+    top: 240px;
+    left: 428px;
+    cursor: pointer;
+}
+#address1_2{
+    position: absolute;
+    top: 240px;
+    left: 458px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#address1_2:hover{
+    text-decoration:underline;
+}
+#branch_button1{
+    background-color: orangered;
+    cursor: pointer;
+    border: orange;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 750px;
+}
+#branch_button1:hover{
+    text-decoration: underline
+}
+#address2_1{
+    position: absolute;
+    top: 524px;
+    left: 426px;
+    cursor: pointer;
+}
+#address2_2{
+    position: absolute;
+    top: 524px;
+    left: 456px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#address2_2:hover{
+    text-decoration:underline;
+}
+#branch_button2{
+    background-color: orangered;
+    cursor: pointer;
+    border: orange;
+    color: white;
+    position: absolute;
+    top: 524px;
+    left: 750px;
+}
+#branch_button2:hover{
+    text-decoration: underline
+}
+/* LOGO */
 #button0{
     margin: 0 auto;
     width: 300px;
@@ -30,12 +204,25 @@ body{
     background-repeat: no-repeat;
     overflow: hidden;
 }
-.mid{
-    margin: 0 auto;
-}
 .float{
     float: left
 }
 h4{
     text-align: center
+}
+#footer{
+    width: 1130px;
+    height: 207px;
+    background-image: url('../img/footer.jpg');
+    position: relative;
+}
+#footer_logo{
+    cursor: pointer;
+}
+#footer_fb{
+    float: right;
+    cursor: pointer;
+}
+#footer a{
+    color: black;
 }
